@@ -1,8 +1,6 @@
-from discordbot import DiscordBot
 from discord.webhook import RequestsWebhookAdapter, Webhook
 from twitchio.chatter import Chatter
 from twitchio.ext import commands
-from twitchio.user import User
 import os
 
 class TwitchBot(commands.Bot):
